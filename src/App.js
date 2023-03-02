@@ -13,9 +13,9 @@ function App() {
 
   return (
     <div className="App">
-      <div onClick={() => handleChangeCounter(2)}>increment</div>
+      <div onClick={() => handleChangeCounter(3)}>increment</div>
       <div>{count}</div>
-      <div onClick={() => handleChangeCounter(-2)}>decrement</div>
+      <div onClick={() => handleChangeCounter(-3)}>decrement</div>
     </div>
   );
 }
